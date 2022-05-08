@@ -1,4 +1,3 @@
-from msilib.schema import Icon
 import discord
 from discord.ext import commands
 from discord.commands import Option
@@ -6,8 +5,6 @@ from discord.commands import Option
 # This is needed to import the config file from the parent directory
 import sys
 from pathlib import Path
-
-from pkg_resources import require
 sys.path.append(str(Path(__file__).parent.resolve().parent))
 import config
 
